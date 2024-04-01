@@ -1,6 +1,13 @@
 package org.narender.Objects;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+
 public class Blog {
+    @Id
+    private Long blogid;
     private String timeDate;
     private String title;
     private String url;

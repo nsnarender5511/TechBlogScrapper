@@ -7,11 +7,13 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.narender.DOA.BlogManager;
+import org.narender.DOA.BlogManagerWithJDBC;
 import org.narender.Objects.Blog;
 import org.narender.scrapper.Scrapper;
-import org.narender.scrapper.impl.Auth0Scapper;
-import org.narender.scrapper.impl.EbayScrapper;
+import org.narender.scrapper.impl.*;
 
+import java.awt.desktop.ScreenSleepEvent;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.lang.reflect.Array;
@@ -29,13 +31,23 @@ public class Main
     public static void main( String[] args ) {
 
         //Scrapper scrapper = new EbayScrapper();
-        Scrapper scrapper2 = new Auth0Scapper();
+        //Scrapper scrapper2 = new Auth0Scapper();
+        //Scrapper scrapper3 = new NetflixTechBlogScrapper();
 
-        List<Blog> blogList = scrapper2.fetchLatestBlogs();
+        Scrapper scrapper4 = new PhonepeScrapper();
+
+        //Scrapper scrapper5 = new UberScrapper();
+
+
+        List<Blog> blogList = scrapper4.fetchLatestBlogs();
+
 
         blogList.forEach(blog -> {
-            logger.info("datetime: {} ||| title: {} ||| link: {}", blog.getTimeDate(), blog.getTitle(), blog.getUrl());
+            //BlogManager.createBlog(blog);
+            long startTime = System.currentTimeMillis();
+            BlogManagerWithJDBC.insert(blog);
             logger.info("-------------------------------------------------");
+            logger.info("Time taken to insert blog : {} ",System.currentTimeMillis() - startTime);
         });
 
         saveToCSV(blogList);
@@ -48,7 +60,7 @@ public class Main
     }
 
     public static void saveToCSV(List<Blog> blogList){
-        String csvFilePath = "/narender/EbayBlogs.csv";
+        String csvFilePath = "/narender/UberBlog.csv";
 
 
 

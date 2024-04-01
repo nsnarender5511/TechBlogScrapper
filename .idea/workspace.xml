@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49baa18-cc63-467f-af9e-cdc4c135ad09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/Scrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/Auth0Scapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/EbayScrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/DBConnectionSingleTon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/NetflixTechBlogScrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/PhonepeScrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/UberScrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Objects/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Objects/Blog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +47,17 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/narender/Desktop/Projects/WillRenameLater/Scheduler/src/Logger&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/narender/Desktop/Projects/WillRenameLater/Scheduler/src/Logger",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Logger" />
@@ -88,24 +94,54 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java</url>
-          <line>27</line>
-          <properties field="url" class="org.narender.sheduler.Main" />
-          <option name="timeStamp" value="2" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/EbayScrapper.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java</url>
           <line>22</line>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/Auth0Scapper.java</url>
+          <url>jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/3.2.0-M2/jakarta.persistence-api-3.2.0-M2.jar!/jakarta/persistence/Persistence.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/3.2.0-M2/jakarta.persistence-api-3.2.0-M2.jar!/jakarta/persistence/Persistence.class</url>
+          <line>44</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java</url>
           <line>25</line>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
