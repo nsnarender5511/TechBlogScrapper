@@ -5,6 +5,7 @@ import java.io.Serializable;
 public class LoginResponse implements Serializable {
     private String token;
 
+
     public String getToken() {
         return token;
     }

@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49baa18-cc63-467f-af9e-cdc4c135ad09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/FetchBlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/FetchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/FetchResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/UserManagerWithJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Objects/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/Auth0/AuthenticationControllerProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
-    "Application.WebApplication.executor": "Debug",
+    "Application.WebApplication.executor": "Run",
+    "Attach to process.pid 54601.executor": "ProcessAttachDebug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -64,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.WebApplication.executor": "Debug",
+    "Spring Boot.WebApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -74,7 +73,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -88,7 +87,7 @@
       <recent name="$PROJECT_DIR$/src/Logger" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebApplication">
+  <component name="RunManager" selected="Application.WebApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.narender.sheduler.Main" />
       <module name="Scheduler" />
@@ -130,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebApplication" />
         <item itemvalue="Spring Boot.WebApplication" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WebApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +154,9 @@
       <workItem from="1712127725718" duration="475000" />
       <workItem from="1712128221279" duration="2557000" />
       <workItem from="1712143515326" duration="178000" />
-      <workItem from="1712143705561" duration="5041000" />
+      <workItem from="1712143705561" duration="19229000" />
+      <workItem from="1712252970147" duration="10905000" />
+      <workItem from="1712395728196" duration="957000" />
     </task>
     <servers />
   </component>
@@ -217,14 +218,29 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/narender/Web/LoginController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="28" />
+          <line>32</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/Web/FetchBlogController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="34" />
+          <line>62</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

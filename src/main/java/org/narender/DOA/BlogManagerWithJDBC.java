@@ -15,18 +15,14 @@ public class BlogManagerWithJDBC {
 
     private static int blogid = 1;
 
-    /**
-     * Inserts a blog into the database.
-     *
-     * @param blog The blog object to be inserted.
-     */
+
     public static void insert(Blog blog) {
         try {
             // Get the database connection
             Connection con = DBConnectionSingleTon.getConnection();
 
             // Create a statement object
-            Statement stmt = con.createStatement();
+            //Statement stmt = con.createStatement();
 
             // Construct the SQL query with the blog details
             String sql = "INSERT INTO Blog (timeDate, title, url, company) VALUES (?, ?, ?, ?)";
