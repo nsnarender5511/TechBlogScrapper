@@ -5,17 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49baa18-cc63-467f-af9e-cdc4c135ad09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/UserManagerWithJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Objects/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/Auth0/AuthenticationControllerProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/OpenAI/CreateAssistantRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/OpenAI/OpenAiModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/OpenAI/OpenAiScheduler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/TechBlogs.-9-gzA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Web/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/DOA/DBConnectionSingleTon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/DBConnectionSingleTon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Objects/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Objects/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/PhonepeScrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/PhonepeScrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/UberScrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/UberScrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,44 +62,44 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.WebApplication.executor": "Run",
-    "Attach to process.pid 54601.executor": "ProcessAttachDebug",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.WebApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/narender/Desktop/Projects/WillRenameLater/Scheduler",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Attach to process.pid 54601.executor&quot;: &quot;ProcessAttachDebug&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.WebApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/narender/Desktop/Projects/WillRenameLater/Scheduler&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Logger" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WebApplication">
+  <component name="RunManager" selected="Spring Boot.WebApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.narender.sheduler.Main" />
       <module name="Scheduler" />
@@ -129,9 +141,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebApplication" />
         <item itemvalue="Spring Boot.WebApplication" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WebApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +169,19 @@
       <workItem from="1712143705561" duration="19229000" />
       <workItem from="1712252970147" duration="10905000" />
       <workItem from="1712395728196" duration="957000" />
+      <workItem from="1712467450895" duration="12488000" />
+      <workItem from="1712906725068" duration="6000" />
+      <workItem from="1712912232515" duration="557000" />
+      <workItem from="1712920757889" duration="600000" />
+      <workItem from="1712934589036" duration="1283000" />
+      <workItem from="1713357651362" duration="28000" />
+      <workItem from="1714219559996" duration="2947000" />
+      <workItem from="1714306792864" duration="2562000" />
+      <workItem from="1714475857036" duration="10000" />
+      <workItem from="1714478098308" duration="10000" />
+      <workItem from="1714479346921" duration="75641000" />
+      <workItem from="1715107176295" duration="599000" />
+      <workItem from="1715660999568" duration="907000" />
     </task>
     <servers />
   </component>
@@ -179,12 +204,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java</url>
-          <line>31</line>
+          <line>23</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java</url>
-          <line>22</line>
+          <line>18</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -201,11 +226,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java</url>
           <line>17</line>
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>jar://$PROJECT_DIR$/../../../Utilities/jdk-17.0.10/lib/src.zip!/java.sql/java/sql/Wrapper.java</url>
@@ -241,6 +261,56 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/narender/Web/JwtFilter.java</url>
           <line>33</line>
           <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar!/com/mysql/cj/jdbc/StatementImpl.class</url>
+          <line>1018</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar!/com/mysql/cj/jdbc/StatementImpl.class</url>
+          <line>1829</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar!/com/mysql/cj/jdbc/StatementImpl.class</url>
+          <line>1026</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/UberScrapper.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/UberScrapper.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/PhonepeScrapper.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/DBConnectionSingleTon.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="56" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

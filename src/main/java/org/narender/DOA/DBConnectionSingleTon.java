@@ -10,7 +10,7 @@ public class DBConnectionSingleTon {
     private static final Logger logger = Logger.getLogger(DBConnectionSingleTon.class.getName());
     private static Connection INSTANCE;
 
-    private static final String url = "jdbc:mysql://40.76.255.234:3306/TechBlogs";
+    private static final String url = "jdbc:mysql://127.0.0.1:3306/TechBlogs";
 
     private DBConnectionSingleTon(){
         try {
@@ -22,8 +22,12 @@ public class DBConnectionSingleTon {
     }
 
     public static Connection getConnection(){
-        if(INSTANCE == null){
-            new DBConnectionSingleTon();
+        try {
+            if(INSTANCE == null || INSTANCE.isClosed()){
+                new DBConnectionSingleTon();
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
         }
         return INSTANCE;
     }

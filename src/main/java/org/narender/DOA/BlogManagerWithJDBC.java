@@ -33,7 +33,7 @@ public class BlogManagerWithJDBC {
             pstmt.setString(4, blog.getCompany());
 
             // Execute the SQL query
-            pstmt.executeUpdate(sql);
+            pstmt.executeUpdate();
 
             // Increment the blog ID
             blogid++;
@@ -41,7 +41,7 @@ public class BlogManagerWithJDBC {
             // Close the database connection
             con.close();
         } catch (SQLException e) {
-            logger.info("Error occurred while connecting to the database: " + e.getMessage());
+            e.printStackTrace();
         }
     }
 

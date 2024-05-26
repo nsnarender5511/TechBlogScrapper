@@ -49,8 +49,10 @@ public class UberScrapper implements Scrapper {
 
                 // Extract the category, title, and date of the blog entry
                 //String category = blogEntry.select("div.c3.hp").text();
-                String title = blogEntry.select("h5").text();
-                String date = blogEntry.select("p.c3.fe").text();
+                String title = blogEntry.select("h5.ca").text();
+                String date = blogEntry.select("p.c3").text();
+
+                String imageUrl = blogEntry.select("img").attr("src");
 
                 // Set the extracted information in the Blog object
                 singleBlog.setUrl(href);

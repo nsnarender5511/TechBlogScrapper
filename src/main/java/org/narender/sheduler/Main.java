@@ -13,12 +13,10 @@ import org.narender.Objects.Blog;
 import org.narender.scrapper.Scrapper;
 import org.narender.scrapper.impl.*;
 
-import java.awt.desktop.ScreenSleepEvent;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Hello world!
@@ -36,19 +34,24 @@ public class Main
 
         Scrapper scrapper4 = new PhonepeScrapper();
 
-        //Scrapper scrapper5 = new UberScrapper();
+        Scrapper scrapper5 = new UberScrapper();
 
 
-        List<Blog> blogList = scrapper4.fetchLatestBlogs();
+        List<Blog> blogList = scrapper5.fetchLatestBlogs();
 
 
         blogList.forEach(blog -> {
             //BlogManager.createBlog(blog);
             long startTime = System.currentTimeMillis();
-            BlogManagerWithJDBC.insert(blog);
-            logger.info("-------------------------------------------------");
-            logger.info("Time taken to insert blog : {} ",System.currentTimeMillis() - startTime);
+            //BlogManagerWithJDBC.insert(blog);
+            if(validateBlog(blog)){
+                BlogManager.createBlog(blog);
+                long endTime = System.currentTimeMillis();
+                logger.info("Time taken to insert blog: " + (endTime - startTime) + "ms");
+            }
         });
+
+       // logger.info("Total blogs inserted: " + count);
 
         saveToCSV(blogList);
 
@@ -57,6 +60,31 @@ public class Main
 
 
 
+    }
+
+    public static boolean validateBlog(Blog blog) {
+
+        if(blog.getTitle() == null || blog.getTitle().isEmpty()){
+            logger.error("---------------Blog title is null ------------------- ");
+            return false;
+        }
+
+        if(blog.getTimeDate() == null || blog.getTimeDate().isEmpty()){
+            logger.error("---------------Blog timeDate is null ------------------- ");
+            return false;
+        }
+
+        if(blog.getUrl() == null || blog.getUrl().isEmpty()){
+            logger.error("---------------Blog url is null ------------------- ");
+            return false;
+        }
+
+        if(blog.getCompany() == null || blog.getCompany().isEmpty()){
+            logger.error("---------------Blog company is null ------------------- ");
+            return false;
+        }
+
+        return true;
     }
 
     public static void saveToCSV(List<Blog> blogList){
@@ -82,6 +110,8 @@ public class Main
 
     public static String getSummary(Blog blog){
         String s = "";
+
+        List<Integer> list = new ArrayList<>();
 
 
 

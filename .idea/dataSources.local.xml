@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-233.15026.9">
-    <data-source name="MysqlDB" uuid="9456c7a3-516f-4315-b50a-422f87d11b1b">
+    <data-source name="@localhost" uuid="cb060312-f3ca-430c-b2a2-b674f317a653">
       <database-info product="MySQL" version="8.0.36-0ubuntu0.22.04.1" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.36" exact-driver-version="8.2">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -11,7 +11,10 @@
       <user-name>narender</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" negative="1" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="TechBlogs" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>
