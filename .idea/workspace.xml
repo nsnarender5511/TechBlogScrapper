@@ -5,27 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f49baa18-cc63-467f-af9e-cdc4c135ad09" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/OpenAI/CreateAssistantRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/OpenAI/OpenAiModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/OpenAI/OpenAiScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/GraphTestArena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/Neo4jConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/managers/BlogManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/managers/CategoryManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/managers/TagManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/managers/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/models/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/models/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/models/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/service/CatogoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/GraphDB/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/RSS/RSSReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/sheduler/OpenAiScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/narender/sheduler/RssScrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/TechBlogs.-9-gzA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9456c7a3-516f-4315-b50a-422f87d11b1b/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cb060312-f3ca-430c-b2a2-b674f317a653.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cb060312-f3ca-430c-b2a2-b674f317a653.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/DOA/DBConnectionSingleTon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/DBConnectionSingleTon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/DOA/UserManagerWithJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/DOA/UserManagerWithJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/Objects/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/Objects/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/PhonepeScrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/PhonepeScrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/UberScrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/UberScrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/OpenAI/OpenAiScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/OpenAI/OpenAiScheduler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/narender/sheduler/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
@@ -46,7 +53,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$PROJECT_DIR$/../../../Utilities/jdk-17.0.10/lib/src.zip!/java.sql/java/sql/Connection.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Utilities/jdk-17.0.10/lib/src.zip!/java.sql/java/sql/Connection.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,46 +69,87 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Attach to process.pid 54601.executor&quot;: &quot;ProcessAttachDebug&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.WebApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/narender/Desktop/Projects/WillRenameLater/Scheduler&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GraphDB.executor": "Run",
+    "Application.GraphTestArena.executor": "Debug",
+    "Application.Main.executor": "Debug",
+    "Application.OpenAiScheduler.executor": "Debug",
+    "Application.RSSReader.executor": "Debug",
+    "Application.RssScrapper.executor": "Debug",
+    "Application.WebApplication.executor": "Debug",
+    "Application.org.narender.GraphDB.GraphDB.executor": "Debug",
+    "Attach to process.pid 54601.executor": "ProcessAttachDebug",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.WebApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/narender/Desktop/Projects/WillRenameLater/Scheduler",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Logger" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.WebApplication">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.narender.sheduler.Main" />
+  <component name="RunManager" selected="Application.RssScrapper">
+    <configuration name="GraphDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.narender.GraphDB.GraphDB" />
+      <module name="Scheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.narender.GraphDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphTestArena" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="--add-opens" value="jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.narender.GraphDB.GraphTestArena" />
+      <module name="Scheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.narender.GraphDB.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpenAiScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.narender.sheduler.OpenAiScheduler" />
       <module name="Scheduler" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.narender.Web.WebApplication" />
+    <configuration name="RSSReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.narender.scrapper.RSS.RSSReader" />
       <module name="Scheduler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.narender.Web.*" />
+          <option name="PATTERN" value="org.narender.scrapper.RSS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,24 +174,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RssScrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.narender.sheduler.RssScrapper" />
+      <module name="Scheduler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.narender.sheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Scheduler" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.narender.Web.WebApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.narender.Web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.RSSReader" />
+      <item itemvalue="Application.RssScrapper" />
+      <item itemvalue="Application.GraphDB" />
+      <item itemvalue="Application.GraphTestArena" />
+      <item itemvalue="Application.OpenAiScheduler" />
+      <item itemvalue="Spring Boot.WebApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.WebApplication" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WebApplication" />
+        <item itemvalue="Application.RssScrapper" />
+        <item itemvalue="Application.RSSReader" />
+        <item itemvalue="Application.GraphTestArena" />
+        <item itemvalue="Application.GraphDB" />
+        <item itemvalue="Application.OpenAiScheduler" />
       </list>
     </recent_temporary>
   </component>
@@ -203,32 +268,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManager.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/3.2.0-M2/jakarta.persistence-api-3.2.0-M2.jar!/jakarta/persistence/Persistence.class</url>
-          <line>40</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/jakarta/persistence/jakarta.persistence-api/3.2.0-M2/jakarta.persistence-api-3.2.0-M2.jar!/jakarta/persistence/Persistence.class</url>
-          <line>44</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/BlogManagerWithJDBC.java</url>
           <line>17</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../Utilities/jdk-17.0.10/lib/src.zip!/java.sql/java/sql/Wrapper.java</url>
+          <url>jar://$USER_HOME$/Utilities/jdk-17.0.10/lib/src.zip!/java.sql/java/sql/Wrapper.java</url>
           <line>41</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -298,11 +343,6 @@
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/narender/scrapper/impl/PhonepeScrapper.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/narender/DOA/DBConnectionSingleTon.java</url>
           <line>25</line>
           <option name="timeStamp" value="55" />
@@ -312,7 +352,89 @@
           <line>50</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/sheduler/OpenAiScheduler.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/sheduler/OpenAiScheduler.java</url>
+          <line>22</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/sheduler/OpenAiScheduler.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/GraphTestArena.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/GraphTestArena.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/GraphTestArena.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/GraphTestArena.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/service/BlogService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/GraphTestArena.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/GraphTestArena.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/GraphTestArena.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/GraphDB/managers/CategoryManager.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/scrapper/RSS/RSSReader.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/narender/scrapper/RSS/RSSReader.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.jdom2.input.JDOMParseException" package="org.jdom2.input" />
+          <option name="timeStamp" value="77" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="doc.getElementsByTag(&quot;!DOCTYPE html&quot;).remove()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

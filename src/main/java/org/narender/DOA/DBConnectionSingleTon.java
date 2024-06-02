@@ -14,7 +14,7 @@ public class DBConnectionSingleTon {
 
     private DBConnectionSingleTon(){
         try {
-            INSTANCE = DriverManager.getConnection(url,"narender","pass");
+            INSTANCE = DriverManager.getConnection(url,"root","pass");
         } catch (SQLException e) {
             logger.info("Error occurred while connecting to the database: " + e.getMessage());
 

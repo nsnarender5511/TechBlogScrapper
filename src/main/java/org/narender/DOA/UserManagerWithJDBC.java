@@ -23,13 +23,10 @@ public class UserManagerWithJDBC {
     public static User verifyUser(String username, String password) {
 
         User user = new User();
-
-
         try {
             Connection con = DBConnectionSingleTon.getConnection();
             PreparedStatement stmt = con.prepareStatement("SELECT * FROM Users WHERE username = ?");
             stmt.setString(1, username);
-
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
                user.setUserID(rs.getInt("user_ID"));
@@ -43,11 +40,9 @@ public class UserManagerWithJDBC {
                user.setUpdate_timestamp(rs.getTimestamp("update_timestamp"));
                return user;
             }
-
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
         return null;
     }
 }

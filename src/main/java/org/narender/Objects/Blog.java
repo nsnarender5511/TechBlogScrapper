@@ -1,11 +1,11 @@
 package org.narender.Objects;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "Blog.findAll", query = "SELECT b FROM Blog b")
+})
 public class Blog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

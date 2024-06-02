@@ -34,10 +34,10 @@ public class Main
 
         Scrapper scrapper4 = new PhonepeScrapper();
 
-        Scrapper scrapper5 = new UberScrapper();
+        //Scrapper scrapper5 = new UberScrapper();
 
 
-        List<Blog> blogList = scrapper5.fetchLatestBlogs();
+        List<Blog> blogList = scrapper4.fetchLatestBlogs();
 
 
         blogList.forEach(blog -> {

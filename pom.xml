@@ -14,6 +14,8 @@
     <version>2.3.0</version>
   </parent>
 
+
+
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
     <dependency>
@@ -22,11 +24,11 @@
       <version>1.17.2</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
-    <dependency>
+<!--    <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-core</artifactId>
       <version>2.23.1</version>
-    </dependency>
+    </dependency>-->
 
     <!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
     <dependency>
@@ -108,21 +110,49 @@
       <artifactId>java-jwt</artifactId>
       <version>4.4.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.neo4j</groupId>
+      <artifactId>neo4j-ogm-core</artifactId>
+      <version>4.0.10</version>
+    </dependency>
 
-
-<!--
+    <!-- Neo4j OGM Bolt Driver -->
+    <dependency>
+      <groupId>org.neo4j</groupId>
+      <artifactId>neo4j-ogm-bolt-driver</artifactId>
+      <version>4.0.10</version>
+    </dependency>
 
     <dependency>
-      <groupId>com.auth0</groupId>
-      <artifactId>mvc-auth-commons</artifactId>
-      <version>[1.0, 2.0)</version>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.32</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.rometools/rome -->
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>javax.servlet-api</artifactId>
-      <version>3.1.0</version>
+      <groupId>com.rometools</groupId>
+      <artifactId>rome</artifactId>
+      <version>2.1.0</version>
     </dependency>
--->
+
+
+
+
+
+    <!--
+
+        <dependency>
+          <groupId>com.auth0</groupId>
+          <artifactId>mvc-auth-commons</artifactId>
+          <version>[1.0, 2.0)</version>
+        </dependency>
+        <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>javax.servlet-api</artifactId>
+          <version>3.1.0</version>
+        </dependency>
+    -->
 
     <!-- https://mvnrepository.com/artifact/org.springframework.security/spring-security-core -->
     <!--<dependency>
@@ -161,26 +191,41 @@
 <!--        </configuration>-->
 <!--      </plugin>-->
 
-<!--      <plugin>-->
-<!--        <groupId>org.codehaus.mojo</groupId>-->
-<!--        <artifactId>exec-maven-plugin</artifactId>-->
-<!--        <version>3.1.0</version>-->
-<!--        <executions>-->
-<!--          <execution>-->
-<!--            <goals>-->
-<!--              <goal>java</goal>-->
-<!--            </goals>-->
-<!--          </execution>-->
-<!--        </executions>-->
-<!--        <configuration>-->
-<!--          <mainClass>org.narender.sheduler.Scheduler.Main</mainClass>-->
-<!--        </configuration>-->
-<!--      </plugin>-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>3.0.1</version>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
 
-          <plugin>
+     <!-- <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.3.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>org.narender.sheduler.Scheduler.Main</mainClass>
+        </configuration>
+      </plugin>-->
+
+        <!--  <plugin>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-maven-plugin</artifactId>
-          </plugin>
+          </plugin>-->
     </plugins>
   </build>
 

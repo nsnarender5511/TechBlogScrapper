@@ -6,6 +6,9 @@ import org.narender.Objects.Blog;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.logging.Logger;
 
 /**
@@ -43,6 +46,22 @@ public class BlogManager {
             entityManager.close();
         }
     }
+
+    public static List<Blog> getBlogList(){
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
+        List<Blog> blogs = null;
+        try{
+            blogs = entityManager.createNamedQuery("Blog.findAll", Blog.class).getResultList();
+            logger.info("Fetched " + blogs.size() + " blogs.");
+        } catch (Exception e) {
+            logger.severe("Error occurred while fetching blogs: " + e.getMessage());
+        } finally {
+            entityManager.close();
+        }
+        return blogs;
+    }
+
+
 
     public static void close() {
         if (entityManagerFactory != null) {
